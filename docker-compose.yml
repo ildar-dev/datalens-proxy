@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: datalens-proxy
     ports:
-      - "8080:80"  # можно поменять порт
+      - "3100:80"  # можно поменять порт
     networks:
       parse:
         aliases:
