@@ -2,7 +2,9 @@ version: "3.9"
 
 services:
   datalens-proxy:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: datalens-proxy
     ports:
       - "8080:80"  # можно поменять порт
