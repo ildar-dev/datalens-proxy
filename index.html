@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DataLens Dashboard</title>
+  <title>Ценовые решения, Datalens</title>
   <style>
     html, body, iframe {
       margin: 0;
@@ -20,7 +20,7 @@
     if (!hash) {
       document.write("<h1>Укажите HASH ID дашборда в URL</h1>");
     } else {
-      document.write(`<iframe src="https://datalens.yandex.ru/d/${hash}" frameborder="0" allowfullscreen></iframe>`);
+      document.write(`<iframe src="https://datalens.yandex/${hash}?_no_controls=1" frameborder="0" allowfullscreen></iframe>`);
     }
   </script>
 </body>
